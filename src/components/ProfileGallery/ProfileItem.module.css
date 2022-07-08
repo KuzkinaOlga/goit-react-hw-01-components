@@ -1,0 +1,40 @@
+.profile {
+  justify-content: center;
+  border: 2px solid #000;
+  width: 350px;
+  height: auto;
+  padding: 10px;
+}
+.description {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.avatar {
+  width: 100%;
+}
+.name {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.tag {
+  text-align: center;
+}
+.location {
+  text-align: center;
+}
+.stats {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 10px;
+}
+.label {
+  margin-left: 0;
+  margin-right: 10px;
+}
+.quantity {
+  color: tomato;
+}

@@ -1,0 +1,22 @@
+.item {
+  display: flex;
+  align-items: center;
+  padding: 5px 100px 5px 15px;
+  margin-bottom: 15px;
+  background: #fff;
+  border-radius: 4px;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.6);
+}
+.status {
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+.statusOnline {
+  composes: status;
+  background-color: #38ef7d;
+}
+.statusOffline {
+  composes: status;
+  background-color: #ed213a;
+}
